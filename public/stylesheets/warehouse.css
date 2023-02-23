@@ -1,0 +1,45 @@
+body
+{
+	background-color: #252525;
+}
+
+div.btn-group-wrapper {
+	margin: auto;
+}
+  
+  /* Clear floats (clearfix hack) */
+div.btn-group:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+
+div.tab-wrapper {
+	width: 95%;
+	margin: auto;
+}
+
+div.tab-body {
+	overflow:auto;
+	padding: 0em;
+	clear: both;
+	background-color: #FFFFFF;
+	min-height: 75%;
+	border-radius: 0 3px 3px 3px;
+	-webkit-border-radius: 0 3px 3px 3px;
+	-moz-border-radius: 0 3px 3px 3px;
+}
+
+div.tab-body2 {
+	overflow:auto;
+	padding: 0em;
+	clear: both;
+	background-color: #FFFFFF;
+	min-height: 0%;
+	border-radius: 0 3px 3px 3px;
+	-webkit-border-radius: 0 3px 3px 3px;
+	-moz-border-radius: 0 3px 3px 3px;
+}
+
